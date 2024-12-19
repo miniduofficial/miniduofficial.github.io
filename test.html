@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport content=width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="gray">
+        <style>
+            @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.element {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+.hover-effect {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.2) rotate(10deg);
+  color: #e74c3c;
+}
+        </style>
+        <div class="element">Cool Fade-In Animation</div>
+        <button class="bounce">Bouncing Button</button>
+        <br><hr style="color: black; outline: 0cm;" >
+        <div class="hover-effect">Hover Over Me!</div>
+    </body>
+</html>
