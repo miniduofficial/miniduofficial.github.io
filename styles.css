@@ -24,6 +24,7 @@ h1 {
     top: 0;
     left: 0;
     background: url('Landscape.jpeg') no-repeat center center;
+    background-color: #181C14;
     background-size: cover;
     display: flex;
     flex-direction: column;
